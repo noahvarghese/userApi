@@ -52,5 +52,4 @@ CREATE TABLE IF NOT EXISTS `assignment`(
 --
 
 INSERT INTO `user` (`ID`, `FIRSTNAME`, `LASTNAME`, `EMAIL`, `PASSWORD`, `CREATED`, `MODIFIED`) VALUES
-(1, 'Mike', 'Dalisay', 'mike@codeofaninja.com', '$2y$10$bhqrUTbtjo..cir.oJeBeeILFEp83MfEB5xHTBD/tM864KXpzCRzy', '2019-01-27 20:57:42', '0000-00-00 00:00:00'),
-(2, 'Noah', 'Varghese', 'varghese.noah@gmail.com', '$2y$10$OKeZfxXq2HyGRJCSE.MFn.ktIZa3aC890Ck2Q/iYraloINL1eXXIi', '2019-01-28 20:12:24', '2019-01-28 22:01:52');
+(1, 'Noah', 'Varghese', 'varghese.noah@gmail.com', '$2y$10$OKeZfxXq2HyGRJCSE.MFn.ktIZa3aC890Ck2Q/iYraloINL1eXXIi', '2019-01-28 20:12:24', '2019-01-28 22:01:52');
