@@ -54,7 +54,6 @@ class token {
     public function read() {
         try {
             $data = JWT::decode($this->jwt, token::$key, array('HS256'));
-            var_dump($data);
             echo json_encode(array("data" => $data));
         } catch (Exception $ex) {
             return false;
