@@ -29,7 +29,6 @@ class User {
         $this->firstName = !empty($this->firstName) ? filter_var($this->firstName, FILTER_SANITIZE_STRING) : null;
         $this->lastName = !empty($this->lastName) ? filter_var($this->lastName, FILTER_SANITIZE_STRING) : null;
         $this->email = !empty($this->email) ? filter_var($this->email, FILTER_VALIDATE_EMAIL) : null;
-        $this->password = !empty($this->password) ? filter_var($this->password, FILTER_SANITIZE_STRING) : null;
 
         if ($this->password === $this->confirmPassword) {
 
