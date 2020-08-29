@@ -15,16 +15,18 @@
   # clone to webserver, and path it will be accessed from
   git clone https://github.com/noahvarghese/useApi
   ```
+  
 1.  **Update packages**
 
   ```shell
   composer install
   ```
+ 
 1.  **Configure your own datbase**
 
   in config/database.php
   enter your own setup
-  
+ 
 1.  **Methods documented in user.php**
 
   - POST
