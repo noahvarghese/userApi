@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  useApi
+  userApi
 </h1>
 
 ## 🚀 Quick start
